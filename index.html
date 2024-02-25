@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=0">
+        <title>BookRealm</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="navbar">
+            <h1 style="font-style: italic;">BookRealm</h1>
+        </div>
+        <div class="container">
+            <div class="book-container">
+            <h2 >Ponniyin Selvan</h2>
+            <h4>Kalki</h4>
+            <p>Ponniyin Selvan is a Tamil language historical fiction novel by Indian author Kalki Krishnamurthy.Ponniyin Selvan is regarded as one of the greatest novels of Tamil literature.This novel has garnered critical acclaim for its tightly woven plot, vivid narration, witty dialogue, and portrayal of the intrigues and power struggle of the Chola empire in the 10th-century.
+
+            </p>
+            <button onclick="deletebook(event)">Delete</button>
+
+            </div>
+           
+            
+
+        </div>
+        <div class="popup-overlay"></div>
+        <div class="popup-box">
+            <h2>Add Book</h2>
+            <form>
+                <input type="text" placeholder="Enter title name" id="book-title-input">
+                <input type="text" placeholder="Enter author name" id="book-author-input">
+                <textarea placeholder="Short Description" id="book-description-input"></textarea>
+                <button id="add-book">ADD</button>
+                <button id="cancel-popup">CANCEL</button> 
+            
+            </form>
+        </div>
+        <button class="add-button" id="add-popup-button">+</button>
+        
+        <script src="script.js"></script>
+    </body>
+
+
+
+
+
+
+</html>
